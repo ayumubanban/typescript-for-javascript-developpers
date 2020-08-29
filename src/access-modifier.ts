@@ -33,4 +33,5 @@ let taro = new Person('Taro', 30, 'Japan');
 console.log(taro.profile()); //=> name: Taro, age: 30
 // publicだと、インスタンスに対してメソッド（メンバ変数）を参照できるよね
 console.log(taro.name); //=> Taro
+// console.log(taro.nationality);
 // console.log(taro.age);
