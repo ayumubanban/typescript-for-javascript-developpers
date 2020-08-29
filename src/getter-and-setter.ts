@@ -43,4 +43,4 @@ console.log(card.debugPrint());
 card.secretNumber = 1111111111
 console.log(card.debugPrint());
 // card._secretNumber;
-console.log(card.secretNumber);
+console.log(card.secretNumber); //=> undefined
