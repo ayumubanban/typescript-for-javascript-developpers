@@ -1,6 +1,6 @@
 export {};
 
-// signature シグネチャー
+// signature シグネチャー ??? 調べたら インデックス シグネチャー しか出てこんのやけども…
 function double(value: number): number;
 function double(value: string): string;
 
