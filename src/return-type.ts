@@ -5,3 +5,5 @@ function add(a: number, b: number) {
 }
 
 console.log(add(1,2));
+
+type ReturnTypeFromAdd = ReturnType<typeof add>;
